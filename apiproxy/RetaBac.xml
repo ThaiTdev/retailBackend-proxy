@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="10" name="RetaBac">
+  <DisplayName/>
+  <Description>Retail backend service used for Developing APIs course</Description>
+  <CreatedAt>1736352988823</CreatedAt>
+  <LastModifiedAt>1736352988823</LastModifiedAt>
+  <BasePaths>/retabac</BasePaths>
+  <Policies>
+    <Policy>JS-delete-basePath</Policy>
+    <Policy>OAuthV2-Verify-Access-Token</Policy>
+    <Policy>AM-delete-data-headers</Policy>
+    <Policy>JSONTP-Protect</Policy>
+    <Policy>KVM-GetCredentials</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <TargetEndpoints>
+    <TargetEndpoint>Pokemon</TargetEndpoint>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>
